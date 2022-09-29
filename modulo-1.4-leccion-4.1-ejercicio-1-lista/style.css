@@ -1,0 +1,9 @@
+
+.lista {
+    background-color: aquamarine;
+}
+.item {
+    background-color: rgb(124, 124, 218);
+    display: inline;
+    margin: 10px;
+}

@@ -1,0 +1,15 @@
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(209, 202, 193);
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.item {
+    background-color: rgb(214, 146, 146);
+    border: 1px solid palevioletred ;
+    width: 20px;
+}
+/* el eje principal: es el :horizontal */

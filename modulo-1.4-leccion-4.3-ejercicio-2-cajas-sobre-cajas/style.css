@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+.div1 {
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    position: absolute;
+    padding: 40px;
+    border: 2px;
+  
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    
+
+}
+.div2 {
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    position: absolute;
+    padding: 75px;
+}
+.div3 {
+    height: 150px;
+    width: 1500px;
+    background-color: blue;
+    position: absolute;
+    border: 20px;
+
+}

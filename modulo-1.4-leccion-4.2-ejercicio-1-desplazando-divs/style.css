@@ -1,0 +1,29 @@
+.div1 {
+    width: 300px;
+    height: 300px;
+    /* margin: 40px;
+    padding: 30px; */
+    background-color: aquamarine;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    
+}
+.div2 {
+    width: 300px;
+    height: 300px;
+    /* margin: 40px;
+    padding: 30px; */
+    background-color: rgb(164, 112, 212);
+    position: relative;
+    right: 150px ;
+}
+.div3 {
+    width: 300px;
+    height: 300px;
+    /* margin: 40px;
+    padding: 30px; */
+    background-color: rgb(194, 122, 122);
+    position: relative;
+}
+
