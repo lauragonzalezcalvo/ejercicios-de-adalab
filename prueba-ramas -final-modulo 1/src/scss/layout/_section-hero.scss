@@ -16,16 +16,11 @@
         text-transform: uppercase;
         text-align: center;
         line-height: 50px;
-        position: relative;
-        bottom: 50px;
         }
 }
 .hero__parragraph{
     font-family:$font-family-main;
     padding-top:15px;
-    padding-bottom: 20px;
-    position: relative;
-    bottom: 50px;
 }
 .hero__arrowdown{
     border-radius: 50%;
@@ -35,8 +30,7 @@
     width: 38px;
     height: 38px;
     margin-bottom: 34.1px;
-    background-color: aquamarine;
-    position: fixed;
+
 }
 // media queries
 
