@@ -1,0 +1,17 @@
+/*@import 'core/variables';
+
+@import 'components/code';
+@import 'components/links';
+
+@import 'layout/footer';
+@import 'pages/index';
+*/
+
+
+@import "core/reset";
+@import "core/_variables";
+@import "layout/header" ;
+@import "layout/section-hero";
+@import "layout/section-window";
+@import "layout/section-reason";
+@import "layout/footer";

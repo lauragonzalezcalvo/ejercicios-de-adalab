@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+    &__menu { 
+      position: absolute;
+      top:50px;
+      right: 50px;
+        width: 40px;
+        height: 35px;
+        background-color:$color-darkblue;
+        border: 0px;
+        padding: 0px;
+      &--link {
+        padding: 6px 5px 2px 5px;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+.sectionwindow{
+    padding: 45px 15px 45px 15px;
+    display: flex;
+    justify-content: center;
+    &__block{
+     width: 730px; 
+    }
+}
+.sectionwindow__tips{
+    font-size: 14px;
+    font-family: $font-family-main;
+    color: $color-blue;
+    text-transform: capitalize;
+    height: 30px;
+}
+
+.sectionwindow__title{
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-family: $font-family-title;
+}
+.sectionwindow__paragraph{
+    font-family: $font-family-main;
+    font-size: 18px;
+    padding-bottom: 27px;
+    color:$greyish-brown;
+}
+.sectionwindow__gobottom{
+    text-decoration: none;
+    font-size: 20px;
+    color: $color-orange;
+    font-weight: bold;
+    font-family: $font-family-main;
+    padding: 10px 25px 10px 20px;
+    
+}
+.sectionwindow__divbottom{
+    color: $color-orange;
+    border: solid 2px $color-orange;
+    border-radius: 26px ;
+    width: 65px;
+    height:35px;
+    line-height: 35px;
+    text-align: center;
+    padding: 5px;
+    background-color: aqua;
+}
+.sectionwindow__divbottom:hover {
+    transform: scale(1.2);
+    transition: all 500ms;
+    background-color: rgb(98, 141, 126);
+}
+
+// media queries
+.sectionwindow__tips{
+    @media all and (min-width: 1200px) {
+    font-size: 16px;
+    }
+
+}
+.sectionwindow__title{
+    @media all and (min-width: 768px) {
+        font-size: 26px;
+        padding-bottom: 27px;
+    }
+    @media all and (min-width: 1200px) {
+    font-size: 32px;
+    padding-bottom: 32px;
+    }
+}
+.sectionwindow__paragraph{
+    @media all and (min-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+.sectionwindow__block{
+    @media all and (min-width: 1200px) {
+    width: 730px;
+    }
+}
+
+.sectionwindow__divbottom{
+    @media all and (min-width: 768px) {
+        width: 91px;
+    }
+    @media all and (min-width: 1200px) {
+        width: 160px;
+    }
+}
+.sectionwindow{
+    @media all and (min-width: 768px) {
+        padding: 45px 39px 45px 39px;
+    }
+}

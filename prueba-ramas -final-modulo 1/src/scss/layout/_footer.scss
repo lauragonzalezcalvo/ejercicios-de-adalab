@@ -1,0 +1,113 @@
+.arrow{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50%);
+    
+}
+.footer{
+    background-color: $color-black;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.footer__containerbottom{
+    background-color:$color-white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: none;
+    position: relative;
+    animation: wiggle 3s linear ;
+    
+}
+// ANIMATE
+@keyframes wiggle {
+    0%, 30% {
+      transform: rotateZ(-360deg);
+      background-color:$color-orange;
+    }
+    50% {
+        background-color:$color-black;
+    }
+}
+.footer-menu-link{
+    text-decoration: none;
+}
+.footer-menu-items{
+    color: $color-white;
+}
+.sectionfooter{
+    text-align: center;
+    line-height: 1.88;
+    font-family:$font-family-main ;
+}
+
+.footer-menu{
+    padding: 40px 120px 30px 120px ;
+    text-transform: uppercase;
+}
+.social-menu{
+    padding: 0px 87px 32px 87px ;
+    text-transform: uppercase;
+}
+.copy{
+    font-size: 14px;
+    padding-bottom: 70px;
+}
+.heartcolor{
+    color: $color-orange;
+}
+// media queries
+
+.sectionfooter{
+    @media all and (min-width: 768px) {
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content: center;
+        text-align:left;
+        padding-bottom: 30px;
+        padding-left: 30px;     
+    }
+    @media all and (min-width: 1200px) {
+      align-items: center;
+      justify-content: center;
+      padding-left: 70px;
+      padding-bottom: 30px;
+      
+        
+    }
+}
+.footermenuandsocial{
+    @media all and (min-width: 768px) {
+       display: flex;
+       align-items: baseline;
+       justify-content: space-around;
+       width: 524px;  
+    }
+ @media all and (min-width: 1200px) {
+    width: 371px;
+    }
+}
+.footer-menu,
+.social-menu{
+    @media all and (min-width: 768px) {
+        padding: 0px;
+  }
+}
+
+.footer-menuitem{
+    @media all and (min-width: 768px) {
+        text-align: none;
+  }
+}
+.copy{
+    @media all and (min-width: 768px) {
+        padding-bottom: 82px;
+        padding-right: 50px;
+  }
+}
+
+
